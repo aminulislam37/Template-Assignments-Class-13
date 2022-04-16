@@ -171,6 +171,10 @@
     z-index: 1;
 }
 
+.service-section .service-box:hover button{
+    color: #2e3e4e
+    ;
+}
 .service-section .box-1 button::after {
     content: "";
     background-color: #ffef00;
@@ -244,6 +248,9 @@
     border-bottom: 2px solid #e65c4d;
     font-size: 15px;
 }
+.contact-section input:focus { 
+    outline: none; 
+}
 
 .contact-section button {
     background-color: #e65c4d;
@@ -258,6 +265,7 @@
     position: relative;
     z-index: 1;
 }
+
 
 .contact-section button::before {
     content: "";
